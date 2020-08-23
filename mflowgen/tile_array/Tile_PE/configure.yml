@@ -1,0 +1,17 @@
+name: Tile_PE
+
+commands:
+  - bash get_Tile_PE_outputs.sh
+
+inputs:
+  - design.v
+
+outputs:
+  - Tile_PE_tt.lib
+  - Tile_PE.lef
+  - Tile_PE.db
+  - Tile_PE.gds
+  - Tile_PE.vcs.v
+  - Tile_PE.lvs.v
+  - Tile_PE.sdf
+
